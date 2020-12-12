@@ -15,11 +15,11 @@ namespace Day09
             
             var part1 = Part1(numbers);
 
-            Console.WriteLine(part1 == 22406676); // 22406676
+            Console.WriteLine(part1); // 22406676
 
             var part2 = Part2(numbers, part1);
 
-            Console.WriteLine(part2 == 2942387); // 2942387
+            Console.WriteLine(part2); // 2942387
         }
 
         private static long Part1(IReadOnlyList<long> numbers)
